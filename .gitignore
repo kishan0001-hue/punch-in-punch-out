@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+myproject/__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+
+# Django
+*.log
+staticfiles/
+media/
+
+# Environment variables
+.env
+
+# PostgreSQL / local database dumps
+*.sql
+*.dump
+*.backup
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Django migrations
+# DO NOT ignore migrations
+# migrations/
